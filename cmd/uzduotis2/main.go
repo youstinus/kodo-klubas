@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 )
 
@@ -13,7 +12,7 @@ var (
 )
 
 func main() {
-	fmt.Println("antra")
+	println("antra")
 
 	tmp := 0
 	for i := 0; i < len(data); i++ {
@@ -44,11 +43,11 @@ func main() {
 				cnt++
 			}
 		} else {
-			fmt.Println("fail", string(data[i]), byte('U'))
+			println("fail", string(data[i]), byte('U'))
 		}
 	}
 
-	fmt.Println(floor, cnt)
+	println(floor, cnt)
 }
 
 func contains(ints []int, num int) bool {

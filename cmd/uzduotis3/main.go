@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 var (
 	counts   = map[rune]int{'A': 10, 'B': 6, 'C': 2, 'D': 7, 'E': 3, 'F': 15, 'G': 3, 'H': 3, 'I': 7, 'J': 7} // A10 B6 C2 D7 E3 F15 G3 H3 I7 J7
 	komandos = [][]string{
@@ -61,7 +57,7 @@ var (
 )
 
 func main() {
-	fmt.Println("trecia")
+	println("trecia")
 
 	dauginam := 1
 
@@ -86,5 +82,5 @@ func main() {
 		}
 	}
 
-	fmt.Println(dauginam)
+	println(dauginam)
 }

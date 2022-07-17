@@ -21,6 +21,7 @@ J6 09100915-2 11201345-2 15101530-7 15351640-4 17201755-2`
 
 // 9825
 func main() {
+	println("penkta")
 	lines := strings.Split(data, "\n")
 	sum := 0
 	for _, line := range lines {

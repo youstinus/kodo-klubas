@@ -34,16 +34,16 @@ var (
 )
 
 func main() {
+	println("sesta")
 	for i, a := range masr {
 		mp[a] = i + 1
 	}
 	// sudek(32, 31, 1)
 	// return
-	pradzia(30, 11, 2)
-	return
+	// pradzia(30, 11, 2)
+	// return
 
-	// println("sesta")
-	println(string(first))
+	// println(string(first))
 	for x33 := 1; x33 <= len(masr); x33++ {
 		for x22 := 1; x22 <= len(masr); x22++ {
 			for x11 := 1; x11 <= len(masr); x11++ {
@@ -59,9 +59,9 @@ func main() {
 func pradzia(c1, c2, c3 int) {
 	i1, i2, i3 := c1, c2, c3
 	var runes []rune
-	for i := 0; i < len(resultr2); i++ {
+	for i := 0; i < len(resultr); i++ {
 		sudek(c1, c2, c3)
-		let := resultr2[i]
+		let := resultr[i]
 		num1 := mp[let]
 		// if c1 == 1 && c2 == 5 && c3 == 1 {
 		// 	println("we")
